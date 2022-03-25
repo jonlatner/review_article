@@ -1,0 +1,51 @@
+\section{Appendix tables (online supplement)}
+\label{appendix_tables}
+
+{\footnotesize %
+\input{tables/table_articles_theory.tex}
+}
+
+\begin{table}[!h]
+\rowcolors{8}{}{lightgray}
+\caption{Empirical findings from the literature on the consequences of temporary employment using cross-national, comparative data}
+    \resizebox{\textwidth}{!}{\input{tables/table_articles_comparative.tex}}
+    \label{table_articles_comparative}
+    \\
+    \tiny
+Note: No information exists for \citealp{babos_2014} because the article compares 8 countries, all of which are Central and Eastern European.  Similarly, no information exists for \citealp{gash_mcginnity_2007} because France is compared to Germany, both of which are Continental countries.  Information does exit for \citealp{passaretta_wolbers_2019} because we assume that Southern and Continental countries are more closed labor markets, with higher levels of segmentation between the primary and secondary labor market.  Therefore, the indication that gap in EPL matters can be understood as a disadvantage for Continental and Southern countries, even if the paper does not indicate a Southern or Continental disadvantage.
+\end{table}
+
+
+\begin{table}[!h]
+\rowcolors{5}{}{lightgray}
+\caption{Empirical findings from the literature on the consequences of temporary employment on wages}
+    \resizebox{\textwidth}{!}{\input{tables/table_articles_wages.tex}}
+    \label{table_articles_wages}
+    \\
+\end{table}
+
+\begin{table}[!h]
+\rowcolors{5}{}{lightgray}
+\caption{Empirical findings from the literature on the consequences of temporary employment on the transition into a permanent contract}
+    \resizebox{\textwidth}{!}{\input{tables/table_articles_permanent.tex}}
+    \label{table_articles_permanent}
+\end{table}
+
+\begin{table}[!h]
+\rowcolors{5}{}{lightgray}
+\caption{Empirical findings from the literature on the consequences of temporary employment on the transition into unemployment}
+    \resizebox{\textwidth}{!}{\input{tables/table_articles_unemployment.tex}}
+    \label{table_articles_unemployment}
+\end{table}
+
+\clearpage
+\section{Appendix technical (online supplement)}
+\label{appendix_technical}
+
+Using all 43 articles that comprise our data, we conducted a text analysis where we do a word(s) search for 19 theories using 22 distinct word phrases.  The analysis was conducted using R.  We have included a do file for replication (text\_mining\_analysis.R), as well as the data (literature\_review\_corpus.rds).  For those who would like to replicate the data from scratch, load all 43 pdfs into a single folder and run the do file on the pdfs contained in that user specified folder.  The results from this analysis are contained in the file, article\_theories.xlsx, located in the online appendix.  
+
+How does one know that it is the literature imposing the bridge-trap structure on us and not the other way around?  The results suggest that, in comparison to the theories we focus on in our review (`stepping stone', `trap', `segmentation', `integration', and `human capital', `signalling', and `screening'), all the other theories are used much less often.  Even where another theory is quite common, such as `job search,' the vast majority of uses are contained within two articles.  Furthermore, the theories we use cut across the discipline divide, and are well used across most articles in sociology, economics, and interdisciplinary journals.  The point of this analysis is to show that the theories we focus on are a reflection of the theories most commonly used in the literature to examine the consequences of temporary employment on wage and career mobility.
+
+While we admit that a true text analysis would require its own article, which is beyond the scope of what we seek to do here, the results are suggestive of an important reality, one that provides the foundation for our analysis.  
+
+

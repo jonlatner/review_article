@@ -1,0 +1,273 @@
+\documentclass[12pt]{article}
+
+\usepackage[table]{xcolor}
+\usepackage{rotating} % Rotating table
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage[tableposition=t]{caption}
+\usepackage[hang,flushmargin]{footmisc} 
+\hypersetup{pdfstartpage=1,
+            pdfpagemode=UseNone,
+            pdfstartview=FitH,
+            pdffitwindow=true,
+            bookmarks=false,
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=blue}
+
+\title{The wage and career consequences of temporary employment in Europe: Analyzing the theories and synthesizing the evidence}
+\author{Jonathan P. Latner\footnote{Corresponding author: Jonathan Latner, \url{jonathan.latner@uni-bamberg.de}.  This project has received funding from the European Research Council (ERC) under the Horizon 2020 research and innovation program (grant agreement No 758491).  The authors would like to thank the following individuals (in alphabetical order):  Anna Baranowska, Paulo Barbieri, David Calnitsky, Giorgio Cutuli, Sophia Fauser, Michael Gebel, Filippo Gioachin, Chen-Hao Hsu, Mike Hout, Richard Latner, Fabian Ochsenfeld, Alex Patzina, Ellen Pechman, Stefani Scherer, Sonja Scheuring, Jody Schimek, and the editors and reviewers of JESP.} $^\dagger$ \and Nicole Saks\thanks{Universit{\"a}t Bamberg}}
+
+\usepackage{longtable}
+\usepackage{lscape}
+
+% define lightgray
+\definecolor{lightgray}{gray}{0.9}
+
+% alternate rowcolors for all long-tables
+\let\oldlongtable\longtable
+\let\endoldlongtable\endlongtable
+\renewenvironment{longtable}{\rowcolors{5}{white}{lightgray}\oldlongtable} {
+\endoldlongtable}
+
+\date{}
+\begin{document}
+
+\maketitle
+\vspace{-.5cm}
+\begin{abstract}
+
+\noindent 
+In Europe, the consequences of temporary employment are at the center of a social policy debate about whether there is a trade-off between efficiency and equity when deregulating labor markets.  However, despite decades of research, there is confusion about the consequences of temporary employment on wage and career mobility.  It is often stated that the consequences are `mixed.'  We review the literature with a focus on synthesizing the evidence and analyzing the theories.  Our review shows that we know a lot more than is often understood about the consequences of temporary employment on wage and career mobility.  We create clarity by organizing the evidence by geographic region, demographic group, and reference group.  While outcomes vary across these factors, there is less variation within these factors.  At the same time, we know a lot less than is often understood about the mechanisms through which temporary employment affects mobility.  Some common theories are not well specified in their application to temporary employment.  We create new opportunities for development in the field by increasing the scope of the debate about some questions and decreasing the scope of the debate about other questions.
+
+\noindent
+\\
+{\bf Keywords} review article, temporary employment, Europe, labor markets, wage and career mobility
+
+\noindent
+\\
+{\bf Revision date:} \today
+
+\noindent
+\\
+{\bf Authors note:} This article has been accepted for publication by, \emph{Journal of European Social Policy}.
+\end{abstract}
+
+
+\clearpage
+\doublespacing
+\section{Introduction}
+
+In Europe, the consequences of temporary employment on wage and career mobility are at the center of a public policy debate about whether there is a trade-off between efficiency and equity when deregulating labor markets \citep{jahn_etal_2012,muffels_2014}.  Despite decades of research since the late 1980s \citep{rodgers_rodgers_1989}, there remains a lack of clarity about the consequences of temporary employment on wage trajectories and career mobility.  Evidence suggests that the consequences are positive \citep{korpi_levin_2001},  negative \citep{giesecke_gross_2004}, null \citep{remery_etal_2002}, or an initial effect that dissipates over time \citep{gebel_2010}.  Given the heterogeneity, it is often stated that the consequences are `mixed' \citep{addison_2015,helbling_2017,mooi-reci_wooden_2017,reichenberg_berglund_2019,mcvicar_etal_2019}.  
+
+There are several reasons for the perception that the consequences of temporary employment on wage and career mobility are mixed.  A primary reason is that there are two dominant and competing scenarios that each explain a different potential outcome.  The segmentation scenario explains why temporary employment is a `trap,' which reduces opportunities for mobility, while the integration scenario explains why temporary employment is a `bridge,' which increases opportunities for mobility \citep{giesecke_gross_2003}.  Outcomes also vary across different countries with different welfare state regimes \citep{muffels_luijkx_2008,barbieri_2009}, demographic groups \citep{gebel_2010,fuller_stecy-hildebrandt_2015}, and methodological approach, especially with respect to the reference group \citep{fuller_2011,gebel_2013}.  Reference group refers to whether one compares the consequences of temporary employment, `downward' to unemployment or `upward' to permanent employment.  
+
+This article advances our understanding about the consequences of temporary employment on wage and career mobility by synthesizing and analyzing previous research.  Synthesizing the empirical evidence suggests our understanding is more clear than widely recognized.  The consequences are neither uniformly positive, negative, nor mixed, but they are not unclear.  We create clarity by organizing outcomes by geographic region, demographic group, and reference group.  Results vary across these factors, but there is less variation within these factors.  However, analyzing the theory suggests that our understanding is less clear than widely recognized about the mechanisms through which temporary employment affects wage and career mobility.  Many theories are not well specified in their application to temporary employment.  We create new opportunities for development in the field by increasing the scope of the debate about some questions and decreasing the scope about other questions.  
+
+\section{Analyzing the theory}
+
+Part of the reason why there is so much confusion about the consequences of temporary employment on wage and career mobility is that there are so many theories.  Please note that we focus on those theories the literature uses most often because it is not possible to cover the universe of relevant theories.  For more details, see online appendix \ref{appendix_technical}.  Our review follows the standard approach: compare and contrast two competing scenarios for explaining the consequences of temporary employment on wage and career mobility.  It is often asked if temporary employment is a trap or a bridge \citep{buchtemann_quack_1989,booth_etal_2002,scherer_2004,gash_2008,babos_2014,mcvicar_etal_2019}.
+
+The idea that temporary employment is a `trap,' which reduces opportunities for mobility, stems from the segmentation scenario, especially theories on dual labour market \citep{doeringer_piore_1971,reich_gordon_edwards_1973} and dualization \citep{emmenegger_etal_2012,eichhorst_marx_2015}.  According to these theories, the labour market is segmented.  Jobs in the primary segment offer employment security (i.e. permanent contracts) and higher wages because the primary segment is used by employers to meet long-run demand for labor.  By contrast, jobs in the secondary segment are more expendable, with limited employment security (i.e. temporary contracts) and lower wages because the secondary segment is used by employers to regulate short-term fluctuations in labor demand.  With little mobility, temporary work `traps' people in the secondary market, limiting wage and mobility opportunities.
+
+The idea that temporary employment is a `bridge,' which increases opportunity for mobility, stems from the integration scenario \citep{korpi_levin_2001,giesecke_gross_2003,gebel_2013}, especially theories on job search \citep{lippman_mccall_1976} and job matching  \citep{sorensen_kalleberg_1981}.  For the employer, the question is about hiring someone temporarily and using the time of the contract as an extended probationary period to acquire more information about job fit \citep{wang_weiss_1998}.  For the employee, the question is about whether to accept a temporary job or wait for a permanent job.  If a temporary job is accepted, the expectation is that the inferiority of the contract is offset in someway \citep{korpi_levin_2001}.  With greater mobility, temporary work provides a `bridge' into the primary market, increasing wage and mobility opportunities.  
+
+While it is tempting to compare these opposing perspectives, we raise some concerns.  The bridge-trap debate itself lacks specificity.  For example, a valid, alternative interpretation comes from neoclassical economic reasoning.  The bridge scenario is less about integration, and more about an efficiently operating firm with job turnover.  Similarly, the trap scenario is less about segmentation, and more about efficiently distributing human capital within a firm.  In both scenarios, the theoretical expectation is that more people move to more secure and better paid jobs in an efficient and growing firm \citep{kalleberg_2001}.  Therefore, what distinguishes the two scenarios is not the outcomes, but the mechanisms.  
+
+Another concern is that it is not always clear which outcomes contribute to which debates in which literature.  Possible options include the efficiency-equity trade-off in the economic literature \citep{jahn_etal_2012}, flexibility-security trade-off in the flexicurity literature \citep{muffels_2014}, or the role of policies, regulations, and education in the literature on institutions and organizations \citep{hipp_etal_2015,passaretta_wolbers_2019}.  This creates confusion when separate literatures talk past each other.
+
+Further, the bridge-trap debate often overlooks other, powerful theories, including, but not exclusive to the theory of institutional economics and contract theory \citep{kaufman_2007}, insider-outsider theory \citep{lindbeck_snower_1989}, tournament theories \citep{lazear_rosen_1981}, and transaction cost theory \citep{williamson_1981}.  This is a problem because, as we will describe, some parts of theories that are commonly used are not well specified in their application to temporary employment.  
+
+Finally, comparing opposing perspectives can naturally lead to the perspective that the evidence as conflicting.  In contrast, we show how the evidence can be seen as complimentary, one that explains different outcomes in different population groups in different countries.  
+
+
+\subsection{Individual-level}
+
+\emph{Human capital theory}
+
+Both segmentation and integration scenarios apply human capital theory \citep{fuller_stecy-hildebrandt_2015}.  One application of human capital theory is often associated with labor market segmentation \citep{giesecke_gross_2003}.  If individuals with temporary employment contracts receive lower wages than individuals with permanent contracts, then this is not a reflection of the contract, by itself, but rather selection into temporary contracts.  In some circumstances, it is rational for certain employees to invest in general human capital skills - for example, women who expect to exit and re-enter the labor market due to motherhood.  Therefore, the relationship is negative between temporary employment contracts and wage and career mobility.  However, it is obvious that entry into, let alone the consequences of temporary employment, cannot be explained by self-selection only. Law, policies, institutions, and personal and path-dependent contextual constraints, etc. are among the factors that moderate or mediate entry into temporary employment and the resulting consequences.
+
+An alternative application of human capital theory is associated with labor market integration \citep{booth_etal_2002}.  It can be an advantage to hold a succession of temporary employment contracts, prior to entering a permanent contract (if ever).  Nursing and teaching are examples where it is efficient for employees to invest in occupation-specific skills.  In these situations, the integration is less about upward career mobility, which may or may not occur, and more about upward wage mobility, owing to more experience in a given occupation, regardless of contract type.  Therefore, certain conditions can offset the negative consequences of temporary employment that are predicted by the previous application of human capital theory to temporary employment.  The key point is that expectations derived from the application of human capital theory to temporary employment are not uniform.
+
+\subsection{Firm-level}
+
+\emph{Signalling}
+
+Signalling theory \citep{spence_1973} connects to the segmentation scenario.  If one assumes a permanent contract is preferable to a temporary one, then an individual with a temporary contract indicates a negative, but unobservable characteristic, such as low ability.  Therefore, an employee with a history of temporary employment sends a signal that firms may use to reduce the amount of imperfect information about potential employees.  Further, if positions in the primary labor market are typically assigned to high education, prime age, or men, then individuals with those characteristics who are in the secondary labor market send a negative signal relative to the respective reference group.  Signalling theory not only explains why temporary employment is a trap, but also why the negative consequences of temporary employment are larger among some demographic groups and smaller among others.  
+
+The question is, how do firms know that a potential employee has a history of temporary employment?  Unlike other signals, like education or periods of unemployment, contract type is not visible on an applicants resume.  One explanation is that firms assign a signal based on frequency of job changes.  However, even if employers do that, not only is this not the same thing as contract type, but the signal is conditional on other factors and not always negative \citep{moss_tilly_2001,pedulla_2020}.  Given the importance of signalling theory in providing a causal mechanism through which to understand the consequences of temporary employment, it is problematic that we know so little about how temporary employment is a signal or what value is assigned to that signal.
+
+\emph{Screening}
+
+Screening theory \citep{siglitz_1975} connects to the integration scenario.  The idea is that firms use temporary employment to hire an employee for a short period of time, as a screening device in order to determine job match, often called a `probationary contract.'  Screening is most applicable when the potential mismatch is high between employee skills and employer needs, especially when education or experience does not by itself signal skills.  Examples include younger workers with little work experience, low-wage occupations that require soft skills, or high-wage occupations that require firm-specific skills.
+
+There are two problems with the application of screening theory to temporary employment.  First, the transition from temporary to permanent employment must occur within the same employer and change in contract type without a change in employer is the result of a probation contract, neither of which is always observable or true.  Second, and more problematic, most jobs are advertised prior to hire, as permanent, temporary without the possibility of extension, or temporary with the possibility of transition into a permanent position (i.e. temp-to-perm).  The point is firms often know what type of contract an employee will be offered prior to hire.  Therefore, the observed effect of temporary employment may be less about the contract and more about the employer \citep{andersson_etal_2005}.
+
+\subsection{Country-level}
+
+At the macro-level, the segmentation or integration scenario are not equally applicable to all countries \citep{giesecke_gross_2004}.  The question is how to explain variation between countries in the consequences of temporary employment.  We follow the literature in using the typological approach to explain cross-national variation, which groups countries into clusters with similar labor market policies and welfare state features.  Then the question is how to group countries.  Esping-Anderson's \citeyearpar{esping-andersen_1990} classic three-regime configuration groups countries along an efficiency/equity spectrum.  Alternatively, the `variety of capitalism' focuses on the degree to which the market or institutions take up the coordination responsibilities \citep{hall_soskice_2001}.  Other classification systems also exist.  Despite important differences, they all end up with a similar country grouping \citep{muffels_luijkx_2008}.  
+
+We begin with between country differences.  The segmentation scenario is more applicable in closed, segmented, and highly regulated labor markets, such as Italy and Germany, with `Mediterranean' or Corporatist welfare state regimes \citep{barbieri_2009}.  In these countries, there is a tight link between occupational position and wages due to strong labor market unions, and large differences between employment protections by contract type.  By contrast, the integration scenario is more applicable in open, flexible, and less regulated labor markets, such as the United Kingdom and Sweden, with Liberal or Social Democratic welfare state regimes \citep{muffels_luijkx_2008}.  In these countries, the link is weaker between both educational credentials/occupational career and occupational position/wages, and the differences are smaller between employment protections by contract type.  
+
+Next, there are within country differences, where the segmentation or integration scenario are more or less applicable to different subgroups \citep{gebel_2010}.  In segmented labor markets, where the primary sector is reserved for highly educated, prime aged, men, these groups are more likely to transition from temporary into permanent employment.  At the same time, individuals with these characteristics who are in the secondary labor market could also be an indication of a negative, but unobservable characteristic, such as low ability \citep{booth_etal_2002}, which could have a negative effect on wages.  By contrast, in flexible labor markets, mobility into permanent contracts is greater for those with lower levels of education, younger age, and female, those who would otherwise be restricted from accessing these positions in segmented labor markets \citep{kalleberg_2001}.  
+
+\section{Reviewing the methodological approaches}
+
+We review the two main approaches for examining the consequences of temporary employment on wage and career mobility.  One includes a reference group; one does not.  The main point is that researchers must account for the models and reference group when reviewing outcomes, as findings may not be comparable, which can lead to confusion.
+
+\emph{No reference group}
+
+One approach examines a subsample of temporary workers and analyzes the probability of making an upward transition into permanent employment, or a downward transition into unemployment or out of the labor market.  Examples of this approach include survival models \citep{gebel_2009}, competing risks models \citep{reichelt_2015}, or multinomial logistic models \citep{passaretta_wolbers_2019}.
+
+The advantage of restricting the sample to those who are in temporary employment in period 1 is that they contribute important knowledge related to the transition rate out of temporary employment and they show the degree to which there are differences in the transition rate between demographic groups.  Here, we use these studies to examine the impact of education, gender, and age on the likelihood of transitioning into permanent employment or unemployment.  Public/private sector and racial/ethnic origin also represent relevant variables in this context, but few studies include information on that, which is why we do not control for them (for exception, see \citealp{giesecke_gross_2003,giesecke_gross_2004}).  
+
+There are also disadvantages \citep{gebel_2013}.  One problem is that they lack a reference group to use as a control.  In standard experimental design, if we want to understand the consequence of a treatment on an outcome of interest, then we use a treatment group and a control group.  The difference between the two groups in the outcome of interest is the effect of the treatment.  Without a control group, it is not possible to estimate the causal effect of temporary employment on an outcome of interest.  The second problem is that most articles are single country studies, which limits the ability to compare differences in transition rates between countries because it is challenging to compare research design between articles.  
+
+\emph{Upward vs. downward comparison}
+
+The alternative approach implements a control group design and compares the consequences of temporary contracts to one of two reference groups.  The standard approach compares temporary contracts, `upward' to permanent contracts.  A less common alternative compares temporary contracts, `downward' to unemployment \citep{korpi_levin_2001,gebel_2013}.  Examples of this approach include matching \citep{gash_mcginnity_2007}, random effects models \citep{giesecke_gross_2003}, fixed effects models \citep{booth_etal_2002}, hybrid models \citep{mooi-reci_wooden_2017}, or sequence analysis \citep{fauser_2020}.
+
+The advantage is that implementing a control group design allows one to estimate the causal effect of temporary employment on outcomes of interest, such as wage and career mobility outcomes.  The degree to which temporary employment is a trap is often a result of comparing temporary to permanent employment and the degree to which temporary employment is a bridge is often a result of comparing temporary employment to unemployment \citep{fuller_2011}.  
+
+There are also disadvantages.  In matching algorithms, results will be biased if matched samples still differ in unobservable characteristics after accounting for observable differences \citep{morgan_harding_2006}.  Random-effects models are also vulnerable to bias from time-constant, unobserved heterogeneity, but fixed effects models are not \citep{halaby_2004}.  However, many researchers may not be aware of the methodological subtleties of the fixed effects approach, which may lead to biased estimates of the treatment effect if the outcome trajectory is not correctly specified \citep{ludwig_bruederl_2021}.  Despite their potential, hybrid models and sequence analysis are not often used in the literature on temporary employment.
+
+\section{Methods}
+
+We conducted a comprehensive review of the literature on the consequences of temporary employment on wage and career mobility.  The process used to select the articles comprised two main steps.  First, we did a general search for articles on temporary employment since 2000, which resulted in a list of 145 articles.  Prior to the year 2000, most of the research that does exist is descriptive.  Second, we further restricted the articles to those that addressed our focus area, the consequences of temporary employment on wage and career mobility in Europe.  The selection criteria resulted in a list of 43 articles, as shown in table \ref{table_articles}.
+
+\begin{center}
+$<<$ \emph{Table \ref{table_articles} about here} $>>$
+\end{center}
+
+Let us define our terms.  Temporary employment is defined as a fixed-term contract, which excludes seasonal jobs, training/apprenticeship or probationary contracts, and temporary agency work, as well as informal employment relationships, all of which are not only less comparable, but also less prevalent types of employment in Europe.  Relatedly, we focus on Europe, because the definition of temporary employment is similar in different countries, even if rates, trends, and consequences are different.  Wage mobility is the upward or downward movement of wages and career mobility is the transition from temporary to permanent employment or unemployment.  Finally, while literature reviews already exist on other types of nonstandard employment and other types of consequences, there is not yet a review on wage and mobility outcomes of temporary employment in Europe.  
+
+We note that our definition of wage and career mobility excludes three articles that use sequence analysis from our review \citep{mattijssen_pavlopoulos_2019,reichenberg_berglund_2019,fauser_2020}.  The advantage of sequence analysis is that it is a more holistic approach to examining the consequences of temporary employment.  The disadvantage is that it is a challenge to compare to the more orthodox approaches, which focus on the effect of single transitions, with studies that apply sequence analysis, which focus on the effect of patterns of trajectories.
+
+To code the articles, we analyzed both the text and the tables and graphs, as indicated in the column `source.'  For purposes of transparency, replication, and future development, the source for each respective code is in the respective table in Appendix \ref{appendix_tables}.  A single article can have multiple outcomes.  For example, articles that split their analysis by gender can have two different outcomes, one for men and women.  Similarly, articles that examine the consequences of temporary employment on distinct wage and career mobility outcomes can also find evidence that consequences are different for different outcomes.  Therefore, even if there multiple outcomes from a single article, there is a unique outcome for a given independent variable (i.e. gender, education, or age), dependent variable (i.e. wage and career mobility), reference group, and geographic region.
+
+With respect to reference group, there are three options.  In most articles, temporary workers is compared, `upward' to permanent workers, but sometimes temporary workers is compared, `downward' to unemployed individuals.  `None' refers to articles examining the exit dynamics of temporary employment, meaning there is no reference group.  
+
+With respect to geographic variation, we coded country of analysis into one of four geographic regions: Northern, Continental, Eastern, and Southern countries.  On the basis of high levels of labor market mobility \citep{muffels_luijkx_2008}, we grouped together Northern countries, which include both Anglophone countries with Liberal welfare states, like the United Kingdom, and Nordic countries with Social Democratic welfare states, like Sweden.  
+
+For comparative articles, we examined whether there was evidence for a Continental or a Southern disadvantage, relative to Northern countries in the consequences of temporary employment.  Null effect refers to results with no clear advantage or disadvantage between regions.  Mixed effect refers to results that are split, i.e. where there are conflicting results for (dis)advantages of countries.  For example, Leschke \citeyearpar[Table 4]{leschke_2009} examines the consequences of temporary employment on career mobility patterns in four countries, Denmark, Germany, Spain, and the United Kingdom.  Relative to a permanent contract, the exit rate into unemployment from temporary employment is lowest in the United Kingdom and highest in Spain, which indicates a \emph{Northern advantage} and a \emph{Southern disadvantage} respectively.  However, the exit rates into unemployment among Germany and Denmark are almost equal, which does not indicate a northern advantage.  Hence, results are coded, \emph{mixed}.  
+
+With respect to wage and career mobility, we examined the overall consequences of temporary employment, as well as differences by age, gender, and education level.  With respect to education, we compare outcomes of those with high levels of education (i.e. greater than a secondary degree) to those with low levels of education (i.e. less than a secondary degree).  While the expectation regarding the impact of education on wage and career mobility outcomes depends on the particular theory, articles are coded with respect to whether higher education provides an advantage (yes, no, or null effect).  
+
+With respect to age, we compared outcomes for those who are younger compared to those who are older.  Articles are coded with respect to whether young age provides an advantage (yes, no, or null effect), depending on the reference group and the outcome examined.  For example, when the outcome is movement into a permanent contract and the reference group is younger ages, then middle and older age groups should have a negative coefficient (i.e. younger advantage) and vice versa.  When there is a null effect of age on either wage or career mobility outcomes, the category was labelled null.  
+
+With respect to gender, two separate categories were created.  With respect to wages, the theoretical expectation is that there is a larger negative effect of temporary employment for men compared to women.  By contrast, with respect to career mobility into permanent employment, the expectation is that men have higher transition rates compared to women, especially in segmented labor markets, where women are more likely to be trapped.  Hence, `male disadvantage' refers to wage mobility and `male advantage' refers to career mobility.  The categories were both coded either yes, no, or null.  For example, with respect to wages, yes refers to the case where a result shows a larger negative effect of temporary employment for men compared to women.  With respect to career mobility to permanent employment or unemployment, yes refers to the case where a result shows a higher transition rate for men compared to women.  `Null' indicates no significant difference.  
+
+Finally, some articles included a time course analysis with focus on decreasing disadvantages over time on wage and career mobility.  These categories were coded yes if the disadvantages for workers with a temporary contract decrease or even vanish over time compared to workers with a permanent contract or compared to the unemployed, no, if this is not the case, and null if there is a null effect.  We note that the distinction between different time spans is relevant, considering the interpretation of the results, but no further distinction can be made here, as only a small number of articles with widely varying time spans are given.
+
+To illustrate our coding scheme, we use an example \citep{booth_etal_2002}.  The article uses data from the United Kingdom (coded region: \emph{Northern}) to examine the effect of temporary employment on wages and the transition to a permanent contract.  A fixed effects model is used for wages (coded reference group: \emph{upwards}) and a proportional hazard model is used to examine the transition to a permanent contract (coded reference group: \emph{none}).    With respect to wage mobility (Table 4, pg. F200), the coefficients suggest that a fixed term contract reduces wages by 0.069 for men and 0.109 for women.  Both are significant ($p<0.01$).  We coded the effect of temporary employment on wages as \emph{negative} for both men and women.  Here, the wage disadvantage is larger for women than men.  We coded this as \emph{no} with respect to evidence of male disadvantage on wage mobility.  Results from a wage growth model suggests that the penalty for men and women decline the longer one is removed from temporary employment (Fig. 1, pg. F210).  For both men and women, this is coded as \emph{yes}, the wage disadvantage declines over time, although more for women than men.  
+
+With respect to career mobility (Table 5, pg. F202), relative to middle age workers, younger workers are more likely to enter permanent work for men (1.180), but not for women (-1.069).  Both are significant ($p<0.01$).  With respect to age advantage, we coded this as \emph{yes} for men, but \emph{no} for women.  Relative to those without educational qualifications, those with a university degree or more are more likely to enter permanent work for men (0.842) and women (0.739).  However, the coefficient was not significant for men, but was for women ($p<0.01$).  Therefore, with respect to education advantage, we coded this as \emph{null} for men, but \emph{yes} for women.  In the abstract, they state, `There is some evidence that fixed-term contracts are a stepping stone to permanent work.'  We coded this as \emph{integration}.  We apply the above coding scheme for all 43 articles.  
+
+\section{Synthesizing the evidence}
+
+The results of our coding are shown in table \ref{table_overview}.  For transparency, as stated in the Source column, each code connects to a table in the Appendix \ref{appendix_tables}, which then provides the table or text where we derived the code from a given article.  In panel A, we split the outcomes, by dependent variables.  With respect to the impact on the likelihood of upward mobility into permanent employment, 22 outcomes are negative, 4 are positive, and 4 are null.  With respect to the impact on the likelihood of downward mobility into unemployment, 12 outcomes are positive and 4 are null.  With respect to the impact of temporary employment on wages, 24 outcomes are negative, 6 are positive, and 10 are null.  Most evidence supports the idea that a temporary contract has a negative effect on wages and career mobility.
+
+\begin{center}
+$<<$ \emph{Table \ref{table_overview} about here} $>>$
+\end{center}
+
+In panel B, we split the outcomes by evidence of segmentation or integration.  A total of 46 outcomes suggest evidence of segmentation, 28 outcomes suggest evidence of integration, and 4 are null.  Our interpretation is both that a higher proportion of outcomes indicate a segmentation or a `trap' rather than an integration or `bridge' scenario, and that the consequences of temporary work on wage and career mobility are indeed mixed.  How do we match the clear, negative evidence of the effect of temporary employment on wage and career mobility with the theory that temporary employment can be both a bridge and a trap?  
+
+We explain most of the inconsistency when we split the evidence.  First, by direction of comparison (panel B).  Outcomes that compare temporary employment, upwards to permanent employment are more negative (35 segmentation, 13 integration).  Outcomes with no reference group are mixed (10 segmentation, 7 integration, 2 null).  Outcomes with a downward comparison to unemployment are more positive (8 integration, 1 segmentation, 2 null).  The consequences of temporary employment are worse when compared to permanent employment, but better when compared to unemployment.  
+
+Next, by geographic region (panel B).  In the Southern region, results are negative (18 segmentation, 5 integration, 1 null).  In the Eastern region, both outcomes indicate segmentation.  Results are mixed in the other two regions, the Continental region (18 segmentation, 14 integration, 1 null) and the Northern region (8 integration, 9 segmentation, 2 null).  The importance of geography is clearer when we examine the consequences of temporary employment using comparative, cross-national data (panel C).  In general, relative to Northern countries with more flexible labor markets, the consequences of temporary employment are uniformly more negative in Continental (8 negative, 1 positive, 1 mixed, 7 null) and Southern (7 negative, 3 null) countries with more segmented labor markets.  The point is that consequences are not equally negative across European countries.
+
+Next, we distinguish the consequences of temporary employment on wages (panel D) and career mobility (panel E) by demographic groups.  First, by education.  Relative to less education, most outcomes suggest a higher education advantage for both wage (7 yes, 3 no) and career mobility (12 yes, 5 no, 16 null).  However, with respect to career mobility, it is worth noting the large number of outcomes where higher education either does not offer an advantage (i.e. null) or is a disadvantage.  Here, Southern and Continental countries account for the majority of outcomes where higher education is either null (6 Continental, 7 Southern) or a disadvantage (3 Continental, 1 Southern).  This is consistent with the idea that higher education can both increase the likelihood of accessing permanent employment, but also that the interaction of higher education and temporary employment can be a signal of a negative, unobservable characteristic, especially in segmented labor markets.
+
+Next, by age.  Relative to prime age workers, outcomes suggest that younger workers are disadvantaged both with respect to wages and career mobility, i.e. transition into permanent contract.  This indicates that the negative consequences of temporary employment are more negative among younger workers.  However, again, we note that the majority of career mobility outcomes are from the Southern region, with highly segmented labour markets, where we would expect the consequences to be the most negative.  
+
+Next, by gender.  First, with respect to wages, the reference is the gender specific wage with a permanent contract.  For example, in \citealp[Table 2]{gebel_2010}, in Germany, the effect of temporary employment on male wages is -0.24, but the effect on female wages is -0.20.  In that article, results do indicate evidence of male \emph{disadvantage}, but, across all articles, results are split regarding evidence of male \emph{disadvantage}, with 5 outcomes suggesting that the effect of temporary employment on wages is more negative for men than women, 5 indicating the opposite, and 2 null.  However, with respect to career mobility, there is evidence of male \emph{advantage}, indicating that men are more likely into transition into permanent employment compared to women (6 yes, 2 no, 17 null).  This is consistent with the idea that positions in the primary labor market are usually male dominated, making it more likely that women are trapped by temporary jobs in the secondary market whereas men are more likely to transition into permanent jobs in the primary market.  
+
+Finally, panel F shows how the consequences of temporary employment change over time.  With respect to the effect on wages, 17 outcomes indicate that negative effects decline over time, 2 outcomes indicate that negative effects persist, and 4 outcomes are null.  At the same time, the reference group matters.  Most outcomes come from articles examining the consequences of temporary employment at labour market entry \citep{gebel_2010,pavlopoulos_2013,de_lange_etal_2014} or among the unemployed \citep{gebel_2013}.  With respect to the effect of temporary employment on the transition into permanent employment, 9 outcomes indicate that negative effects decline over time, 1 outcome indicates that the negative effects persist, and 3 are null.  Finally, with respect to the effect of temporary employment on the transition to unemployment, 9 outcomes indicate that the negative effect declines over time, 1 outcome finds that the negative effect persists, and 3 outcomes are null.  What negative consequences of temporary employment that do exist, decline over time.
+
+\section{Summary and discussion}
+
+Our goal was to synthesize and analyze previous research on the consequences of temporary employment on wage and career mobility.  The main finding from our review is that the evidence is not `mixed,' as the literature suggests.  Instead, the evidence is more clear than is often understood, as long as we organize the evidence by geographic region, demographic group, and reference group.  Results vary across these factors, but there is less variation within these factors.  Therefore, we know a lot more than is often understood about the consequences of temporary employment on wage and career mobility.  
+
+At the same time, despite our ambitions, we must be modest in our claims.  We cannot provide one, single overarching answer to the question of interest.  Moreover, we know a lot less than is often understood about the mechanisms that explain the consequences of temporary employment.  Much more research is needed to test the causality of the relationship between temporary employment, the way labor market policies and institutions react to temporary labor, and how temporary employment affects the entire wage and employment careers of people.  The good news is that there is not lack of theory nor data, but there is a lack of empirical studies testing the theory by focusing on the causal mechanisms which can explain the longer-term outcomes on the career.  
+
+At the broadest level, most evidence suggests that temporary employment has a negative effect on wage and career mobility.  How do we match the evidence with the theory that temporary employment can be both a bridge and a trap?  We explain most of the inconsistency when we split the evidence.  Compared to unemployment, the consequences of temporary employment are positive, but negative when compared to permanent employment.  Men are more likely to enter a permanent contract than women, who are at greater risk of repeated spells of temporary employment, but there is no evidence of an additional wage disadvantage for men, relative to women.  Higher education is a buffer, both protecting individuals from the negative consequences on wages and increasing the likelihood of accessing permanent employment.  By age, results indicate that the negative consequences of temporary employment are more negative among younger workers.  The consequences of temporary employment are more negative in Conservative and Mediterranean welfare state regimes with closed, segmented, and highly regulated labor markets, like Germany, Italy, and Spain.  
+
+Finally, the initial consequences of temporary employment on wage and career mobility outcomes do not appear to be lasting, especially for labour market entrants.  It should be noted, however, that the different articles indicate different time spans until the negative effects diminish, which naturally influences their interpretation, but a more detailed distinction cannot be made given the small number of these articles and their varying time spans.  Furthermore, a recent analysis suggests that the diminishing negative consequences of temporary employment on mobility outcomes may be more related to older cohorts than younger cohorts, i.e. the chance of entrapment in atypical employment increases gradually over time for the younger cohorts compared to the older cohort \citep{barbieri_etal_2019}, but this study uses Italian data where we would expect outcomes to be more negative, especially for younger workers.  
+
+Our review of the literature suggests several key ideas for future research.  Most fundamentally, research must move beyond the traditional orthodoxy of the segmentation-integration debate.  These perspectives are not in opposition to each other.  They are not mutually exclusive.  Temporary employment can be both a bridge and a trap, but our review shows that neither the expectations nor the mechanisms are uniform across population groups and countries.  Although theories generally deal with means and not with variation, disaggregating the findings and looking at variation enriches the analyses and our understanding.  
+
+Future research should better incorporate different theories, empirical/data approaches, and mechanisms/methods.   As we suggested in section 2, many powerful theories are under represented in the literature on temporary employment.  These theories are used in different strands of the empirical literature and all give their causal interpretations for the career outcomes for temporary laborers.  
+
+We also emphasize the empirical dimensions of time and space.  Specifically, analyzing outcomes with a greater number of transitions (i.e. sequence analysis), as well as analyzing the consequences over time (i.e. impact functions), both of which are less common in the literature.  With respect to data, most research on temporary employment uses data from a single country, limiting the ability to compare outcomes between countries.  Further, we have shown here that this also facilitates confusion.  Different findings in different countries are not seen as part of a broader pattern, but mixed.  Without denying the value of single country analysis, more research should rely cross-national, comparative data.  The goal should be a more holistic approach to examining the consequences of temporary employment.  
+
+Last, we must improve our understanding of the mechanisms through which temporary employment affects mobility, especially the role of the firm.  While powerful explanations exist, we find challenges in applying them to temporary employment and testing them empirically.  Key questions are unresolved about how employers determine the signal of temporary employment \citep{bills_etal_2017}, how employer behavior varies in different countries \citep{carre_tilly_2017}, and how employers use temporary contracts to integrate some population groups and segregate others \citep{pedulla_2020}.  Here, we emphasize the importance of the employer perspective, which is under represented in research on temporary employment, either through qualitative data (for exceptions, see: \citealp{rogers_1995,vosko_2000,casey_alach_2004,hatton_2011}), or linked employee-employer quantitative data.
+
+More generally, our article must be understood within a broader context, both with respect to research on temporary employment and the necessity of reviewing that research.  In the 1990s, policy makers in the OECD and the European Parliament promoted the use of temporary contracts in industrialized countries to increase economic growth and reduce unemployment by making labour markets more flexible.  Many countries implemented some form of the policy recommendations.  Since then, labour market performance improved, but employment also became less standardized.  The consequences of these changes have always been a concern.  In response, a large body of research was created.  
+
+Our review of the literature clarifies our understanding of the current evidence with respect to the consequences of temporary employment on wage and career mobility.  The prevailing perspective is that the results are mixed, which leads to confusion.  The problem is not a lack of evidence.  The problem is that there is evidence to support so many conclusions.  Both policy makers and researchers need to know that the consequences about temporary employment on wage and career mobility may be mixed, but they are not unclear.  The knowledge gap is less about the consequences and more about the mechanisms.  This is important because it limits causal interpretations, which are crucial in making policy decisions.  
+
+At the same time, for both social policy makers and researchers alike, we must strike a balance between the importance of causal research when making policy decisions and situating causal findings within a broader descriptive pattern.  Causal research is about reducing a question to the isolated part that can be examined within a causal framework.  By contrast, descriptive research is about expanding a question to its maximum that can still be examined empirically, either qualitatively or quantitatively.  The value of this paper is that it descriptively organizes many causal findings in a way that both clarifies what we do know and what we do not know.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\singlespacing
+\bibliographystyle{apalike2}
+\bibliography{references}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\section{Tables}
+
+%TC:ignore 
+\begin{table}[!h]
+	\caption{Results}
+	\centering
+	\begin{scriptsize}
+    	\input{tables/table_overview_results.tex}
+	\end{scriptsize}
+	\label{table_overview}
+\end{table}
+
+\begin{table}[!h]
+	\rowcolors{4}{}{lightgray}
+	\caption{List of articles used for analysis}
+	\resizebox{\textwidth}{!}{\input{tables/table_articles_small.tex}}
+	\label{table_articles}
+\end{table}
+%TC:endignore 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%APPENDIX
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\renewcommand*\thetable{\Alph{section}.\arabic{table}}
+\renewcommand*\thefigure{\Alph{section}.\arabic{figure}}
+\renewcommand{\theHfigure}{\Alph{section}.\arabic{table}}
+\renewcommand{\theHtable}{\Alph{section}.\arabic{figure}}
+
+%TC:ignore 
+\clearpage
+\input{appendix}
+%TC:endignore 
+
+
+\end{document}
+
